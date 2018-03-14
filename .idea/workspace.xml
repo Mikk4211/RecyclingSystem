@@ -309,7 +309,7 @@
       <option name="presentableId" value="Default" />
       <updated>1520941874386</updated>
       <workItem from="1520941877131" duration="6417000" />
-      <workItem from="1521024284819" duration="574000" />
+      <workItem from="1521024284819" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet connector class samt defineret hvilken DB vi forbinder til">
       <created>1521022863097</created>
@@ -325,11 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521024725200</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ændret main til at hente fxml.&#10;&#10;Ændret fxml:&#10;- billede til button.&#10;- buttons bruger du billede som baggrund&#10;- lavet button event (mangler at teste kode for at sikre output)&#10;- ændret størrelse på billede på buttons. Kan ikke få til at &quot;fylde ud&quot;, men ikon passer nu med button størrelse.">
+      <created>1521024869031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521024869031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6991000" />
+    <option name="totallyTimeSpent" value="7004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
