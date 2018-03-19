@@ -1,6 +1,6 @@
 package retur.pant;
 
-public class TotalMængde {
+public class Beregning {
 
 
 
