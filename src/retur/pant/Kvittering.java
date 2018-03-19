@@ -1,5 +1,7 @@
 package retur.pant;
 
+import java.io.FileNotFoundException;
+
 public class Kvittering {
   
   public void getPrint() { //Metode til at lave kvittering til txt fil.
@@ -36,8 +38,10 @@ public class Kvittering {
             System.out.println("Kvittering lavet");
             output.close();
 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
         }
-    
+
   }
 
 
