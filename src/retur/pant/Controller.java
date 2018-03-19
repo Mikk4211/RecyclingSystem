@@ -22,12 +22,35 @@ public class Controller {
      * Metode der afhænger af ActionEvent e, og der afgører hvad der sker når man trykker på knapperne i GUI'en.
      */
     @FXML
-    private void handleButtonAction(ActionEvent e) throws SQLException {
+    private void handleButtonAction(ActionEvent e) {
         //sqlStatement.useDB();
 
 
-        if (e.getSource() == btn_end) {
-            System.out.println("Button End virker");
+        if (e.getSource() == btn_pant1) { // Håndtering af GUI Knap for pant type A
+            System.out.println("Pant 1");
+            // klasse(værdi).metode(tilføj pant(evt enum?))
+            //Ændre lbl for penge/antal || klasse(værdi).metode(total værdi for pant)
+                        
+        }
+        
+        if (e.getSource() == btn_pant2) { // Håndtering af GUI Knap for pant type B
+            System.out.println("Pant 2");
+            // klasse(værdi).metode(tilføj pant(evt enum?))
+            //Ændre lbl for penge/antal || klasse(værdi).metode(total værdi for pant)
+        }
+        
+        if (e.getSource() == btn_pant3) { // Håndtering af GUI Knap for pant type C
+            System.out.println("Pant 3");
+            // klasse(værdi).metode(tilføj pant(evt enum?))
+            //Ændre lbl for penge/antal || klasse(værdi).metode(total værdi for pant)
+        }
+        
+        if (e.getSource() == btn_end) { // Håndtering af GUI Knap for afslut
+            System.out.println("Afslut. Antal penge + antal i alt. bla bla something.");
+            //SQL statement til at overføre antal pantA, pantB, pantC til DB.
+            //Tænker Writer funktion til at smide sout i en txt fil.
+            //klasse(værdi).resetfunktionNoget?
+           
         }
     }
 }
