@@ -1,5 +1,5 @@
 package retur.pant;
 
-public enum  Type {
+public enum  EnumType {
     DÅSE, FLASKE
 }
