@@ -1,6 +1,6 @@
 package retur.pant;
 
-public class Flaske {
+public class PantVærdi {
 
     public double pantA = 1.0;
     public double pantB = 1.5;
