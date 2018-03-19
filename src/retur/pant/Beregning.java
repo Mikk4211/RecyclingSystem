@@ -15,21 +15,23 @@ public class Beregning {
   Metode afsnit til pantsatning af dåser/flasker.
   
   */
-  void tilføjPant(EnumType typer){
-      if(typer == EnumType.pantA){
+  void tilføjPant(EnumPant typer) {
+      if (typer == EnumPant.PANTA) {
           totalPenge += pantVærdi.getPantA();
           antalA++;
       }
-    
-    if(typer == EnumType.pantB){
+
+      if (typer == EnumPant.PANTB) {
           totalPenge += pantVærdi.getPantB();
           antalB++;
       }
-    
-    if(typer == EnumType.pantC){
+
+      if (typer == EnumPant.PANTC) {
           totalPenge += pantVærdi.getPantC();
           antalB++;
       }
+
+  }
     
     //Getters for samlet antal + penge for pant.
     public int getAntalA() {
