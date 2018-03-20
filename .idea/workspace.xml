@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2549a692-00d0-4f61-95a2-87da3e8f24d6" name="Default" comment="">
+    <list default="true" id="2549a692-00d0-4f61-95a2-87da3e8f24d6" name="Default" comment="Fået writer til at virker.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/retur/pant/Beregning.java" afterPath="$PROJECT_DIR$/src/retur/pant/Beregning.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/retur/pant/Controller.java" afterPath="$PROJECT_DIR$/src/retur/pant/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/retur/pant/Kvittering.java" afterPath="$PROJECT_DIR$/src/retur/pant/Kvittering.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,29 +29,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/retur/pant/sample.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PantVærdi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/retur/pant/PantVærdi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DB_Connector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/retur/pant/DB_Connector.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,26 +49,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Beregning.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/retur/pant/Beregning.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnumType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/retur/pant/EnumType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EnumPant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/retur/pant/EnumPant.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,11 +59,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PantVærdi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/retur/pant/PantVærdi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Kvittering.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/retur/pant/Kvittering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+            <state relative-caret-position="442">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kvittering.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Udskrift/Kvittering.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Beregning.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/retur/pant/Beregning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="103" lean-forward="false" selection-start-line="19" selection-start-column="103" selection-end-line="19" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -113,8 +102,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/retur/pant/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,9 +141,9 @@
         <option value="$PROJECT_DIR$/src/retur/pant/DB_Connector.java" />
         <option value="$PROJECT_DIR$/src/retur/pant/Main.java" />
         <option value="$PROJECT_DIR$/src/retur/pant/EnumPant.java" />
+        <option value="$PROJECT_DIR$/src/retur/pant/sample.fxml" />
         <option value="$PROJECT_DIR$/src/retur/pant/Beregning.java" />
         <option value="$PROJECT_DIR$/src/retur/pant/Controller.java" />
-        <option value="$PROJECT_DIR$/src/retur/pant/sample.fxml" />
         <option value="$PROJECT_DIR$/src/retur/pant/Kvittering.java" />
       </list>
     </option>
@@ -217,6 +206,11 @@
             </path>
             <path>
               <item name="RecyclingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecyclingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Udskrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecyclingSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -235,6 +229,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wexrfyr\IdeaProjects\RecyclingSystem" />
       <recent name="C:\Users\wexr\IdeaProjects\RecyclingSystem\src\images" />
     </key>
   </component>
@@ -374,7 +369,7 @@
       <updated>1520941874386</updated>
       <workItem from="1520941877131" duration="6417000" />
       <workItem from="1521024284819" duration="587000" />
-      <workItem from="1521500654898" duration="3718000" />
+      <workItem from="1521500654898" duration="8128000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet connector class samt defineret hvilken DB vi forbinder til">
       <created>1521022863097</created>
@@ -411,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521503855445</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Har problemer med at finde en nem løsning til at smide variabler ned i en writer.&#10;Har lavet en console løsning for kvittering istedet.">
+      <created>1521504399401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521504399401</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10722000" />
+    <option name="totallyTimeSpent" value="15132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
@@ -436,6 +438,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2513243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -447,7 +450,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,10 +463,13 @@
     <MESSAGE value="Ændret main til at hente fxml.&#10;&#10;Ændret fxml:&#10;- billede til button.&#10;- buttons bruger du billede som baggrund&#10;- lavet button event (mangler at teste kode for at sikre output)&#10;- ændret størrelse på billede på buttons. Kan ikke få til at &quot;fylde ud&quot;, men ikon passer nu med button størrelse." />
     <MESSAGE value="EnumPant var ikke lavet som java.&#10;Kaldte også på forkert class." />
     <MESSAGE value="Havde fucket buttonaction op. &#10;Så lavede GUI forfra. Det er dog kun base. Ikoner etc. må komme senere." />
-    <option name="LAST_COMMIT_MESSAGE" value="Havde fucket buttonaction op. &#10;Så lavede GUI forfra. Det er dog kun base. Ikoner etc. må komme senere." />
+    <MESSAGE value="Har problemer med at finde en nem løsning til at smide variabler ned i en writer.&#10;Har lavet en console løsning for kvittering istedet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Har problemer med at finde en nem løsning til at smide variabler ned i en writer.&#10;Har lavet en console løsning for kvittering istedet." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -521,10 +526,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/retur/pant/EnumType.java">
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="645">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -539,6 +547,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/PantVærdi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/retur/pant/EnumPant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -547,23 +563,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/retur/pant/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/EnumType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/retur/pant/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Udskrift/Kvittering">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -584,26 +595,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/retur/pant/PantVærdi.java">
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/Beregning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="103" lean-forward="false" selection-start-line="19" selection-start-column="103" selection-end-line="19" selection-end-column="103" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/retur/pant/Beregning.java">
+    <entry file="file://$PROJECT_DIR$/Udskrift/Kvittering.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/retur/pant/Kvittering.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+        <state relative-caret-position="442">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding />
         </state>
       </provider>

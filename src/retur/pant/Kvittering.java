@@ -4,52 +4,46 @@ import java.io.FileNotFoundException;
 
 public class Kvittering {
 
-    Beregning calc = new Beregning();
-  
-  public void getPrint() { //Metode til at lave kvittering til txt fil.
-  
-  java.io.File file = new java.io.File("txt/kvittering.txt");
-        if (file.exists()) { //Tjekker om der allerede ligger en kvittering.
-            file.delete(); // Såfremt der allerede var en kvittering, slettes denne således ny kan laves til pant kunde.
-            System.exit(0); // Efter filen er slettet lukkes dette if loop.
+    Beregning calc = Beregning.getInstance(); //Henter min ene instance af Beregning.
+
+    java.io.File file = new java.io.File("Udskrift/Kvittering.txt");
+
+    //Metode til udskriver til txt fil af alle studerende og alt deres informtion
+    public void getPrint() {
+
+        if (file.exists()) { // tjekker om hvorvidt txt filen allerede er lavet.
+            file.delete(); // Sletter txt fil såfremt den allerede er lavet, så en ny med frisk information kan printes.
         }
 
         try (
                 // Create a file
-                java.io.PrintWriter output = new java.io.PrintWriter(file);
+                java.io.PrintWriter output = new java.io.PrintWriter(file); // laver en ny Writer ved navn output.
+
         ) {
-          
-            /* Indsættelse af værdier til .txt fil.
-            Kan ikke bruge output.print eller println da den kun tager imod "text".
-            Tænker derfor værdier skal smides ind i et arraylist, og så køre arraylisten igennem.
-            
-            Måske noget lign:
-            
-            ArrayList<Kvit> temp = printKvit(true);
-            int i, k;
-            for(i=0; i<temp.size(); i++){
-                for (k=0; k<temp.get(i).kvitData(true).size(); k++){
-                    output.print(temp.get(i).kvitData(true).get(k));
-                }
-            */
-          
-            calc.getAntalA();
-            calc.getAntalB();
-            calc.getAntalC();
-            calc.getTotalPenge();
-            output.write("FUCK");
-            // Måske arraylist?
 
-            System.out.println("Kvittering lavet");
-            output.close();
+            // Udskriver pant information til txt fil.
+            output.println("");
+            output.println("----------- KVITTERING -----------");
+            output.println("");
+            output.println("Antal Pant A: " + calc.getAntalA());
+            output.println("Antal Pant B: " + calc.getAntalB());
+            output.println("Antal Pant C: " + calc.getAntalC());
+            output.println("Samlet har du pantet: " + calc.totalAntalPantsat + " Flasker/Dåser");
+            output.println("");
+            output.println("Din samlet pant bon lyder på: " + calc.totalPenge + ",-");
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            output.close(); // For at sikre det åbne dokument er lukket igen. Således det ikke skaber problemer.
+
+        }
+        catch(FileNotFoundException ex){ // påtvunget for at køre Writer funktionen.
+            System.out.println("Der opstod en fejl ved udskrift af kvittering.");// fortæller i konsol såfremt der er fejl ved at udskriver til txt.
+
         }
 
-  }
+    }
 
   public void getKvit() {
+      System.out.println("");
       System.out.println("----------- KVITTERING -----------");
       System.out.println("");
       System.out.println("Antal Pant A: " + calc.getAntalA());
