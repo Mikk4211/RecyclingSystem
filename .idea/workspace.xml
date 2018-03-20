@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2549a692-00d0-4f61-95a2-87da3e8f24d6" name="Default" comment="Fået writer til at virker.">
+    <list default="true" id="2549a692-00d0-4f61-95a2-87da3e8f24d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/retur/pant/Beregning.java" afterPath="$PROJECT_DIR$/src/retur/pant/Beregning.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/retur/pant/Controller.java" afterPath="$PROJECT_DIR$/src/retur/pant/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/retur/pant/Kvittering.java" afterPath="$PROJECT_DIR$/src/retur/pant/Kvittering.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/retur/pant/sample.fxml" afterPath="$PROJECT_DIR$/src/retur/pant/sample.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +70,8 @@
       <file leaf-file-name="Kvittering.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/retur/pant/Kvittering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="34" column="112" lean-forward="true" selection-start-line="34" selection-start-column="112" selection-end-line="34" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -369,7 +367,7 @@
       <updated>1520941874386</updated>
       <workItem from="1520941877131" duration="6417000" />
       <workItem from="1521024284819" duration="587000" />
-      <workItem from="1521500654898" duration="8128000" />
+      <workItem from="1521500654898" duration="10240000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet connector class samt defineret hvilken DB vi forbinder til">
       <created>1521022863097</created>
@@ -413,11 +411,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521504399401</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fået writer til at virker. Kvittering vises nu både i konsol, og skrives samtidig også i txt fil.&#10;&#10;Har anvendt singleton for at kunne bruge information fra vores Beregning klasse samtidig i andre klasser.">
+      <created>1521508844026</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521508844026</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15132000" />
+    <option name="totallyTimeSpent" value="17244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
@@ -464,7 +469,8 @@
     <MESSAGE value="EnumPant var ikke lavet som java.&#10;Kaldte også på forkert class." />
     <MESSAGE value="Havde fucket buttonaction op. &#10;Så lavede GUI forfra. Det er dog kun base. Ikoner etc. må komme senere." />
     <MESSAGE value="Har problemer med at finde en nem løsning til at smide variabler ned i en writer.&#10;Har lavet en console løsning for kvittering istedet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Har problemer med at finde en nem løsning til at smide variabler ned i en writer.&#10;Har lavet en console løsning for kvittering istedet." />
+    <MESSAGE value="Fået writer til at virker. Kvittering vises nu både i konsol, og skrives samtidig også i txt fil.&#10;&#10;Har anvendt singleton for at kunne bruge information fra vores Beregning klasse samtidig i andre klasser." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fået writer til at virker. Kvittering vises nu både i konsol, og skrives samtidig også i txt fil.&#10;&#10;Har anvendt singleton for at kunne bruge information fra vores Beregning klasse samtidig i andre klasser." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -603,14 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Udskrift/Kvittering.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/retur/pant/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -621,10 +619,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Udskrift/Kvittering.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/retur/pant/Kvittering.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="323">
+          <caret line="34" column="112" lean-forward="true" selection-start-line="34" selection-start-column="112" selection-end-line="34" selection-end-column="112" />
           <folding />
         </state>
       </provider>

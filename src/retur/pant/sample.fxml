@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -24,16 +25,21 @@
             <AnchorPane prefHeight="316.0" prefWidth="498.0" GridPane.rowIndex="1">
                <children>
                   <Button fx:id="btn_pant2" layoutX="177.0" layoutY="32.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="74.0" prefWidth="84.0" text="PantB" />
-                  <Label layoutX="55.0" layoutY="49.0" prefHeight="39.0" prefWidth="80.0" text="Tekst til pant B" />
+                  <Label layoutX="80.0" layoutY="32.0" prefHeight="39.0" prefWidth="97.0" text=" Bottles of Plastic" />
+                  <Label layoutX="80.0" layoutY="52.0" prefHeight="39.0" prefWidth="97.0" text="0,5 liters DKK 1,50" />
                </children>
             </AnchorPane>
             <AnchorPane prefHeight="316.0" prefWidth="498.0" GridPane.rowIndex="2">
                <children>
                   <Button fx:id="btn_pant3" layoutX="177.0" layoutY="31.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="74.0" prefWidth="84.0" text="PantC" />
-                  <Label layoutX="69.0" layoutY="43.0" prefHeight="39.0" prefWidth="80.0" text="Tekst til pant C" />
+                  <Label layoutX="27.0" layoutY="31.0" prefHeight="39.0" prefWidth="149.0" text="Cans and bottles more than" />
+                  <Label layoutX="92.0" layoutY="51.0" prefHeight="39.0" prefWidth="84.0" text="1 liter DKK 3,00" />
                </children>
             </AnchorPane>
-            <AnchorPane prefHeight="316.0" prefWidth="498.0" GridPane.columnIndex="1" />
+            <AnchorPane prefHeight="316.0" prefWidth="498.0" GridPane.columnIndex="1">
+               <children>
+                  <TextArea layoutX="177.0" layoutY="8.0" prefHeight="94.0" prefWidth="117.0" text="Pant-O-Matic 3001&#10;Made by:&#10;Benjamin Ejrup&#10;Mikkel Sørensen" />
+               </children></AnchorPane>
             <AnchorPane prefHeight="316.0" prefWidth="498.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
                   <Button fx:id="btn_end" layoutX="74.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="137.0" prefWidth="156.0" text="Afslut" />
@@ -41,13 +47,16 @@
             </AnchorPane>
             <AnchorPane prefHeight="316.0" prefWidth="498.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
-                  <Label fx:id="lbl_antal" layoutX="52.0" layoutY="83.0" prefHeight="25.0" prefWidth="59.0" text="Antal" />
-                  <Label fx:id="lbl_penge" layoutX="198.0" layoutY="83.0" prefHeight="25.0" prefWidth="59.0" text="Penge" />
+                  <Label fx:id="lbl_antal" layoutX="52.0" layoutY="83.0" prefHeight="25.0" prefWidth="34.0" text="0 stk" />
+                  <Label fx:id="lbl_penge" layoutX="198.0" layoutY="83.0" prefHeight="25.0" prefWidth="34.0" text="0,0,-" />
+                  <Label layoutX="33.0" layoutY="56.0" prefHeight="25.0" prefWidth="72.0" text="Samlet antal" />
+                  <Label layoutX="179.0" layoutY="56.0" prefHeight="25.0" prefWidth="72.0" text="Antal penge" />
                </children></AnchorPane>
             <AnchorPane layoutX="314.0" layoutY="284.0" prefHeight="316.0" prefWidth="498.0">
                <children>
                   <Button fx:id="btn_pant1" layoutX="175.0" layoutY="32.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="74.0" prefWidth="84.0" text="PantA" />
-                  <Label layoutX="52.0" layoutY="57.0" prefHeight="39.0" prefWidth="80.0" text="Tekst til pant A" />
+                  <Label layoutX="37.0" layoutY="32.0" prefHeight="32.0" prefWidth="140.0" text="Cans and bottles less than" />
+                  <Label layoutX="93.0" layoutY="53.0" prefHeight="32.0" prefWidth="84.0" text="1 liter DKK 1,00" />
                </children>
             </AnchorPane>
          </children>
