@@ -3,6 +3,8 @@ package retur.pant;
 import java.io.FileNotFoundException;
 
 public class Kvittering {
+
+    Beregning calc = new Beregning();
   
   public void getPrint() { //Metode til at lave kvittering til txt fil.
   
@@ -31,8 +33,11 @@ public class Kvittering {
                 }
             */
           
-          
-            output.print("text");
+            calc.getAntalA();
+            calc.getAntalB();
+            calc.getAntalC();
+            calc.getTotalPenge();
+            output.write("FUCK");
             // Måske arraylist?
 
             System.out.println("Kvittering lavet");
@@ -42,6 +47,17 @@ public class Kvittering {
             e.printStackTrace();
         }
 
+  }
+
+  public void getKvit() {
+      System.out.println("----------- KVITTERING -----------");
+      System.out.println("");
+      System.out.println("Antal Pant A: " + calc.getAntalA());
+      System.out.println("Antal Pant B: " + calc.getAntalB());
+      System.out.println("Antal Pant C: " + calc.getAntalC());
+      System.out.println("Samlet har du pantet: " + calc.totalAntalPantsat + " Flasker/Dåser");
+      System.out.println("");
+      System.out.println("Din samlet pant bon lyder på: " + calc.totalPenge + ",-");
   }
 
 

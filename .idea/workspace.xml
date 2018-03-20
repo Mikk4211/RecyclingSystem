@@ -4,7 +4,6 @@
     <list default="true" id="2549a692-00d0-4f61-95a2-87da3e8f24d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/retur/pant/Kvittering.java" afterPath="$PROJECT_DIR$/src/retur/pant/Kvittering.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/retur/pant/sample.fxml" afterPath="$PROJECT_DIR$/src/retur/pant/sample.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/retur/pant/sample.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
@@ -41,11 +40,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PantVærdi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/retur/pant/PantVærdi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_Connector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/retur/pant/DB_Connector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_Statements.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/retur/pant/DB_Statements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Beregning.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/retur/pant/Beregning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -71,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kvittering.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Kvittering.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/retur/pant/Kvittering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -124,9 +153,9 @@
         <option value="$PROJECT_DIR$/src/retur/pant/Main.java" />
         <option value="$PROJECT_DIR$/src/retur/pant/EnumPant.java" />
         <option value="$PROJECT_DIR$/src/retur/pant/Beregning.java" />
-        <option value="$PROJECT_DIR$/src/retur/pant/Kvittering.java" />
         <option value="$PROJECT_DIR$/src/retur/pant/Controller.java" />
         <option value="$PROJECT_DIR$/src/retur/pant/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/retur/pant/Kvittering.java" />
       </list>
     </option>
   </component>
@@ -345,7 +374,7 @@
       <updated>1520941874386</updated>
       <workItem from="1520941877131" duration="6417000" />
       <workItem from="1521024284819" duration="587000" />
-      <workItem from="1521500654898" duration="3173000" />
+      <workItem from="1521500654898" duration="3718000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet connector class samt defineret hvilken DB vi forbinder til">
       <created>1521022863097</created>
@@ -375,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521500798715</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Havde fucket buttonaction op. &#10;Så lavede GUI forfra. Det er dog kun base. Ikoner etc. må komme senere.">
+      <created>1521503855445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521503855445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10177000" />
+    <option name="totallyTimeSpent" value="10722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
@@ -424,7 +460,8 @@
     <MESSAGE value="Tilføjet connector class samt defineret hvilken DB vi forbinder til" />
     <MESSAGE value="Ændret main til at hente fxml.&#10;&#10;Ændret fxml:&#10;- billede til button.&#10;- buttons bruger du billede som baggrund&#10;- lavet button event (mangler at teste kode for at sikre output)&#10;- ændret størrelse på billede på buttons. Kan ikke få til at &quot;fylde ud&quot;, men ikon passer nu med button størrelse." />
     <MESSAGE value="EnumPant var ikke lavet som java.&#10;Kaldte også på forkert class." />
-    <option name="LAST_COMMIT_MESSAGE" value="EnumPant var ikke lavet som java.&#10;Kaldte også på forkert class." />
+    <MESSAGE value="Havde fucket buttonaction op. &#10;Så lavede GUI forfra. Det er dog kun base. Ikoner etc. må komme senere." />
+    <option name="LAST_COMMIT_MESSAGE" value="Havde fucket buttonaction op. &#10;Så lavede GUI forfra. Det er dog kun base. Ikoner etc. må komme senere." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -476,8 +513,6 @@
     <entry file="file://$PROJECT_DIR$/src/retur/pant/Type.java" />
     <entry file="file://$PROJECT_DIR$/src/retur/pant/TotalMængde.java" />
     <entry file="file://$PROJECT_DIR$/src/retur/pant/Flaske.java" />
-    <entry file="file://$PROJECT_DIR$/src/retur/pant/DB_Connector.java" />
-    <entry file="file://$PROJECT_DIR$/src/retur/pant/DB_Statements.java" />
     <entry file="file://$PROJECT_DIR$/src/retur/pant/EnumPant">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -490,14 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/retur/pant/Kvittering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -530,14 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/retur/pant/Beregning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/retur/pant/sample.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -545,6 +564,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/DB_Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/DB_Statements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/PantVærdi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/Beregning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/retur/pant/Kvittering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
           <folding />
         </state>
       </provider>
